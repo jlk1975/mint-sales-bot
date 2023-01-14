@@ -1,3 +1,6 @@
+# Env
+.env 
+samplemint.json
 # Logs
 logs
 *.log
