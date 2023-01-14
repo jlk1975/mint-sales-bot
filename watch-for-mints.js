@@ -1,9 +1,11 @@
-// npm install @alchemy-sdk
+import * as dotenv from 'dotenv'
+dotenv.config()
+const MATIC_KEY = process.env.ALCHEMY_MATIC_MAINNET;
 import { Network, Alchemy } from "alchemy-sdk";
 
 const settings = {
-  apiKey: API_KEY, // Replace with your Alchemy API Key.
-  network: Network.MATIC_MAINNET, // Replace with your network.
+  apiKey: MATIC_KEY,  
+  network: Network.MATIC_MAINNET,  
 };
 
 const alchemy = new Alchemy(settings);

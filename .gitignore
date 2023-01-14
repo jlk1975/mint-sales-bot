@@ -1,6 +1,7 @@
 # Env
 .env 
 samplemint.json
+package-lock.json
 # Logs
 logs
 *.log
